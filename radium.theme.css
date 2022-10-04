@@ -1,0 +1,40 @@
+/**
+ * @name radium
+ * @description Allows you to customize Discord's native Color Scheme.
+ * @author DevilBro
+ * @version 1.0.0
+ * @authorId 278543574059057154
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://mwittrien.github.io/
+ * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor/
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@100;300;400;500;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
+
+:root {
+  --accentcolor: 195,151,216;
+  --accentcolor2: 255,167,167;
+  --linkcolor: 80,202,210;
+  --mentioncolor: 255,229,158;
+  --textbrightest: 212,212,213;
+  --textbrighter: 212,212,213;
+  --textbright: 185,185,185;
+  --textdark: 140,140,140;
+  --textdarker: 115,115,115;
+  --textdarkest: 69,72,76;
+  --font: Inconsolata;
+  --backgroundaccent: 48,48,58;
+  --backgroundprimary: 16,19,23;
+  --backgroundsecondary: 10,13,17;
+  --backgroundsecondaryalt: 25,29,34;
+  --backgroundtertiary: 21,25,30;
+  --backgroundfloating: 33,36,40;
+  --settingsicons: 1;
+}
+
+/* Any custom CSS below here */
+
+
