@@ -1,48 +1,56 @@
-# Radium Alacritty Colors
+window:
+        padding:
+                x: 5
+                y: 5
+
+# TokyoNight Alacritty Colors
 colors:
+  # Default colors
   primary:
-    background: '0x101317'
-    foreground: '0xd4d4d5'
+    background: '0x1a1b26'
+    foreground: '0xc0caf5'
 
+  # Normal colors
   normal:
-    black:   '0x0a0d11'
-    red:     '0xf87070'
-    green:   '0x37d99e'
-    yellow:  '0xffe59e'
-    blue:    '0x7ab0df'
-    magenta: '0xb68acb'
-    cyan:    '0x50cad2'
-    white:   '0xd4d4d5'
+    black:   '0x15161e'
+    red:     '0xf7768e'
+    green:   '0x9ece6a'
+    yellow:  '0xe0af68'
+    blue:    '0x7aa2f7'
+    magenta: '0xbb9af7'
+    cyan:    '0x7dcfff'
+    white:   '0xa9b1d6'
 
+  # Bright colors
   bright:
-    black:   '0x191d22'
-    red:     '0xff8e8e'
-    green:   '0x79dcaa'
-    yellow:  '0xffebb3'
-    blue:    '0x87bdec'
-    magenta: '0xc397d8'
-    cyan:    '0x85dae0'
-    white:   '0xe5e5e6'
+    black:   '0x414868'
+    red:     '0xf7768e'
+    green:   '0x9ece6a'
+    yellow:  '0xe0af68'
+    blue:    '0x7aa2f7'
+    magenta: '0xbb9af7'
+    cyan:    '0x7dcfff'
+    white:   '0xc0caf5'
 
-  selection:
-    background: '0xd4d4d5'
-    foreground: '0x0a0d11'
+  indexed_colors:
+    - { index: 16, color: '0xff9e64' }
+    - { index: 17, color: '0xdb4b4b' }
 
 font:
   normal:
-    family: Inconsolata Nerd Font
+    family: JetBrainsMono Nerd Font
     style: Regular
 
   bold:
-    family: Inconsolata Nerd Font
+    family: JetBrainsMono Nerd Font
     style: Bold
 
   italic:
-    family: Inconsolata Nerd Font
+    family: JetBrainsMono Nerd Font
     style: Italic
 
   bold_italic:
-    family: Inconsolata Nerd Font
+    family: JetBrainsMono Nerd Font
     style: Bold Italic
 
-  size: 11
+  size: 9
