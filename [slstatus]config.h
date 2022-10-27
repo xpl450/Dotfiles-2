@@ -28,8 +28,8 @@ static const char unknown_str[] = "n/a";
  * entropy             available entropy               NULL
  * gid                 GID of current user             NULL
  * hostname            hostname                        NULL
- * ipv4                IPv4 address                    interface name (eth0)
- * ipv6                IPv6 address                    interface name (eth0)
+ * ipv4                IPv4 address                    interface name (enp0s3)
+ * ipv6                IPv6 address                    interface name (enp0s3)
  * kernel_release      `uname -r`                      NULL
  * keyboard_indicators caps/num lock indicators        format string (c?n?)
  *                                                     see keyboard_indicators.c
@@ -65,9 +65,9 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ netspeed_rx, "歷 %sB/s received", "eth0" },
+	{ netspeed_rx, "歷 %sB/s received", "enp0s3" },
 	{ separator, ", ", NULL },
-	{ netspeed_tx, "%sB/s transferred ", "eth0" },
+	{ netspeed_tx, "%sB/s transferred ", "enp0s3" },
 	{ separator, "| ", NULL },
 	{ run_command, " %s ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
 	{ separator, "| ", NULL },
@@ -75,5 +75,5 @@ static const struct arg args[] = {
 	{ separator, "| ", NULL },
 	{ ram_perc, "﬙ RAM %s%% ", NULL },
 	{ separator, "| ", NULL },
-	{ datetime, " %s",           "%F %T" },
+	{ datetime, "  %s",           "%a %d/%m/%Y %T" },
 };
