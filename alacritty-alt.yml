@@ -35,19 +35,19 @@ colors:
 
 font:
   normal:
-    family: Inconsolata Nerd Font
+    family: GohuFont Nerd Font
     style: Regular
 
   bold:
-    family: Inconsolata Nerd Font
+    family: GohuFont Nerd Font
     style: Bold
 
   italic:
-    family: Inconsolata Nerd Font
+    family: GohuFont Nerd Font
     style: Italic
 
   bold_italic:
-    family: Inconsolata Nerd Font
+    family: GohuFont Nerd Font
     style: Bold Italic
 
   size: 11
